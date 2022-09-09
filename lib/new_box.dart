@@ -7,7 +7,7 @@ class NewBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(8),
+      padding: const EdgeInsets.all(8),
       child: Center(
         child: child,
       ),
@@ -19,7 +19,7 @@ class NewBox extends StatelessWidget {
           BoxShadow(
             color: Colors.grey.shade500,
             blurRadius: 15,
-            offset: Offset(1, 1),
+            offset: const Offset(1, 1),
           ),
           // Darker shadow on the top left
           const BoxShadow(
